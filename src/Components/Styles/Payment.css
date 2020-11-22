@@ -1,0 +1,40 @@
+.payment {
+  background-color: #fff;
+}
+
+.payment > h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+}
+
+.payment > h1 a {
+  text-decoration: none;
+}
+
+.payment__section {
+  border-bottom: 1px solid lightgray;
+}
+
+.payment > form {
+  max-width: 400px;
+}
+
+.payment > h3 {
+  padding-bottom: 20px;
+}
+
+.buyButton {
+  text-transform: capitalize;
+  background: linear-gradient(to bottom, #ffc681, #e28818);
+  border: 1 solid;
+  height: 2em;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: bolder;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111111;
+}
